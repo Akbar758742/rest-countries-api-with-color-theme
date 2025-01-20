@@ -12,7 +12,7 @@ fetch("https://restcountries.com/v3.1/all")
     ;
     
    
-    countryCard.innerHTML =`<img src="${country.flags.svg}" class=" max-w-[100%] max-h-[100%] " alt="" />
+    countryCard.innerHTML =`<img src="${country.flags.svg}" class=" max-w-[100%] max-h-[100%] " alt="${country.name.common}" />
               <div class="p-2 pb-4">
                 <h2 class="font-bold my-2 text-2xl">${country.name.common}</h2>
                 <p class="font-bold">

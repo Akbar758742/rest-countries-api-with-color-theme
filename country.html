@@ -1,13 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>country</title>
-    
-</head>
-<body>
-    <h1>country</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body
+    class="bg-white dark:bg-darkblue text-black dark:text-white px-1 font-nunito"
+  >
+    <header
+      class="shadow-[0_5px_20px_-15px_rgba(0,0,0,0.3)] w-full bg-white dark:bg-darkblue"
+    >
+      <div
+        class="flex justify-between items-center py-4 max-w-[1200px] mx-auto"
+      >
+        <h1 class="text-2xl font-nunito font-bold">where in the world</h1>
+        <p class="font-thin">
+          <i class="fa-regular fa-moon"></i>&nbsp;&nbsp;Darkmood
+        </p>
+      </div>
+    </header>
+    <section>
+      <a href=""><p class="max-w-[1200px] mx-auto mt-8 mb-4 px-4">
+        <i class="fa-solid fa-arrow-left text-[#6E707A]"></i>
+        Back
+      </p></a>
+
+      <div class="mx-auto max-w-[1200px] grid grid-cols-1 md:grid-cols-2 gap-8">
+        <img
+          src="https://flagcdn.com/in.svg"
+          class="max-w-[400px] w-full"
+          alt=""
+        />
+        <div>
+          <h1 class="text-2xl font-bold">India</h1>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <p><span class="font-bold">Native Name:</span> India</p>
+              <p><span class="font-bold">Population:</span> 1,394,975,829</p>
+              <p><span class="font-bold">Region:</span> Asia</p>
+              <p><span class="font-bold">Sub Region:</span> Southern Asia</p>
+              <p><span class="font-bold">Capital:</span> New Delhi</p>
+            </div>
+            <div>
+              <p><span class="font-bold">Top Level Domain:</span> .in</p>
+              <p><span class="font-bold">Currencies:</span> Indian rupee</p>
+              <p><span class="font-bold">Languages:</span> Hindi, English</p>
+            </div>
+          </div>
+          <div>
+            <p class="font-bold">Border Countries:</p>
+            <div class="flex flex-wrap gap-2">
+              <a href="#" class="border border-[#2B3945] px-2 py-1 rounded-md"
+                >Bangladesh</a
+              >
+              <a href="#" class="border border-[#2B3945] px-2 py-1 rounded-md"
+                >Bhutan</a
+              >
+              <a href="#" class="border border-[#2B3945] px-2 py-1 rounded-md"
+                >Myanmar</a
+              >
+              <a href="#" class="border border-[#2B3945] px-2 py-1 rounded-md"
+                >China</a
+              >
+              <a href="#" class="border border-[#2B3945] px-2 py-1 rounded-md"
+                >Nepal</a
+              >
+              <a href="#" class="border border-[#2B3945] px-2 py-1 rounded-md"
+                >Pakistan</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="country.js"></script>
-</body>
+  </body>
 </html>
