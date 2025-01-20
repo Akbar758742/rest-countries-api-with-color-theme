@@ -6,9 +6,10 @@ fetch("https://restcountries.com/v3.1/all")
     data.forEach((country) => {
        console.log(country);
     const countryCard = document.createElement("a");
-    countryCard.className=(
+    countryCard.href=`country.html?name=${country.name.common}`;
+    countryCard.className=
       "shadow-[0_0px_4px_0px_rgba(0,0,0,0.6)] w-[250px] bg-white dark:bg-darkblue rounded-xl overflow-hidden inline-block transition-all duration-300  ease-in-out mt-3 hover:scale-105"
-    );
+    ;
     
    
     countryCard.innerHTML =`<img src="${country.flags.svg}" class=" max-w-[100%] max-h-[100%] " alt="" />
